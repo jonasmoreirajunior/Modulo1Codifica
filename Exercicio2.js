@@ -9,6 +9,12 @@ const quantidadeVotosBrancos = parseInt(prompt("Informe a quantidade de votos br
 const quantidadeVotosNulos = parseInt(prompt("Informe a quantidade de votos nulos: "))
 const quantidadeVotosValidos = parseInt(prompt("Informe a quantidade de votos válidos: "))
 
+/**
+ * Função para calcular o percentual de votos
+ * @param {number} value 
+ * @param {string} tipoVoto 
+ * @returns 
+ */
 function calculaPercentual(value, tipoVoto) {
     const percentualCalculado = (value / quantidadeEleitores) * 100
     return console.log(`O percentual de votos ${tipoVoto} é: `, percentualCalculado)

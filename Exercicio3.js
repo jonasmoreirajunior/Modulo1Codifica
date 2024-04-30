@@ -17,14 +17,29 @@ triplicar(segundo)
 modificar(terceiro)
 console.log(`A soma de todos os valores é: ${quarto}`);
 
+/**
+ * 
+ * @param {number} valor 
+ * @returns 
+ */
 function soma25(valor) {
     return console.log(`O valor do primeiro somado com 25 é: ${valor + 25}`, "\n")
 }
 
+/**
+ * 
+ * @param {number} valor 
+ * @returns 
+ */
 function triplicar(valor) {
     return console.log(`O valor do segundo triplicado é: ${valor * 3}`, "\n")
 }
 
+/**
+ * 
+ * @param {number} valor 
+ * @returns 
+ */
 function modificar(valor) {
     return console.log(`12% do terceiro é: ${valor * 0.12}`, "\n")
 }

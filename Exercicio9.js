@@ -48,6 +48,10 @@ const codigos = [
     }
 ]
 
+/**
+ * Função para receber o código informado e verificar se pertence a algum grupo de região
+ * @param {number} cod 
+ */
 const verificaCodigo = (cod) => {
     if (cod >= 1 && cod <= 50) {
         codigos.forEach(codigo => {

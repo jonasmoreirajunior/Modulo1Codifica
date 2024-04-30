@@ -3,6 +3,11 @@
 
 const prompt = require('prompt-sync')();
 
+/**
+ * Função para realizar a conversão da temperatura
+ * @param {number} value 
+ * @returns 
+ */
 function converterTemperatura(value) {
     valorFahrenheit = parseInt((value * 1.8) + 32)
     return console.log("O valor em Fahrenheit é:", valorFahrenheit)

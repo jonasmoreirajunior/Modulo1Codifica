@@ -5,6 +5,11 @@
 
 const prompt = require('prompt-sync')();
 
+/**
+ * Função para verificar se o valor informado é PAR ou ÍMPAR
+ * @param {number} valor 
+ * @returns 
+ */
 const verificaNumero = (valor) => {
     if (valor % 2 === 0) {
         return "PAR"
